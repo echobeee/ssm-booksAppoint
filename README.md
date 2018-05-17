@@ -1826,7 +1826,7 @@ PS:前端页面因为我比较懒，所以有些应该实现的相同功能我�
 mybatis主要是文件配置，逆向工程，pageHelper分页插件，spring的详细配置，spring注解的使用，servie层属性的注入，springmvc controller层的编写，拦截器的使用，自定义异常类  
 这次没有用的spring的另一个core AOP，大家可以自己开发开发，因为这也是spring一个很核心重要的点，下次项目我就会打算用上的啦，同时还有这样的知识点：文件上传下载，全局异常处理，json使用等等
 
-这里顺便记录一下自己遇见的一个坑：
+这里顺便记录一下自己遇见的一个坑：    
 大家在整合ssm时，要注意spring的版本与jdk的兼容，sprng3.x配对的是jdk1.7及以前，而jdk1.8则只能兼容sprng4.x，否则运行会报错。当大家出现了这样的报错时，除了要注意大家使用的jdk时，也要注意tomcat的jdk版本（被这个坑了很久！！），tomcat的jdk版本也是需要匹配的~   
 还有pageHelper的配置，网上有的人博客中方言那里是使用dialect=mysql，这是旧的版本，对于新的版本5.x（我只测试了这个）要用helperDialect=mysql，否则在连接数据库时会出现异常
 
