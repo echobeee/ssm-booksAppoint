@@ -4,7 +4,7 @@
 
 ---
 Spring+SpringMVC+Mybatis（mysql数据库） 的整合项目：一个用户登陆式图书预约系统
-这个练手项目是模仿https://github.com/nize1989/ssm-BookAppointment这个的，界面有点像哈哈哈，但是代码都是我自己手打的哦
+这个练手项目是模仿https://github.com/nize1989/ssm-BookAppointment 这个的，界面有点像哈哈哈，但是代码都是我自己手打的哦
 先看看项目运行的效果，来了解其具体的功能
 
 ## 1.功能概述
